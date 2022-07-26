@@ -37,6 +37,7 @@ p{
     
 }
 .pressed_drum{
-    background-color: aqua;
-    transition: 1s;
+    border-color: #ffc600;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px #ffc600;
 }
