@@ -1,0 +1,42 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-size: 80%;
+    
+}
+.Drum{
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    
+    border-style: solid !important;
+    border-width: 5px;
+    
+    
+    border-color: white;
+    
+}
+H1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: yellow;
+    text-align: center;
+}
+.DrumSet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20rem;
+    
+    
+}
+.pressed_drum{
+    background-color: aqua;
+    transition: 1s;
+}
